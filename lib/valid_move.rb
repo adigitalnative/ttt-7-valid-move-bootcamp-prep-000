@@ -18,6 +18,7 @@ def position_taken?(board, index)
       return true
     else
       return false
+    end
   end
 end
 
