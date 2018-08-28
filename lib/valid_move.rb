@@ -14,7 +14,6 @@ def position_taken?(board, index)
   if value_at_index == "" || value_at_index == " " || value_at_index == nil
     return false
   else
-    raise "bang"
     if on_board?(index)
       return true
     else
@@ -25,5 +24,5 @@ end
 
 
 def on_board?(index)
-  raise "bang"
+  
 end
