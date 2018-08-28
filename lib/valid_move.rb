@@ -11,7 +11,7 @@ end
 
 def position_taken?(board, index)
   value_at_index = board[index]
-  if value_at_index == "" || " " || nil
+  if value_at_index == "" || value_at_index == " " || value_at_index == nil
     return false
   else
     return true
