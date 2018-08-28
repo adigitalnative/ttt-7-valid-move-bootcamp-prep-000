@@ -13,7 +13,7 @@ def position_taken?(board, index)
   end
 end
 
-def valid_position_on_board?(index)
+def present_on_board?(index)
   VALID_INDEXES = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   
   if VALID_INDEXES.include?(index)
