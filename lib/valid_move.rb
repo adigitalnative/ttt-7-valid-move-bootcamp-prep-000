@@ -23,7 +23,6 @@ end
 def on_game_board?(index)
   valid_indexes = [0,1,2,3,4,5,6,7,8]
   
-  raise index.inspect
   if valid_indexes.include?(index)
     true
   else
