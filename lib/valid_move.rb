@@ -19,3 +19,7 @@ def position_taken?(board, index)
     return true
   end
 end
+
+def on_game_board?(index)
+  raise index.inspect
+end
