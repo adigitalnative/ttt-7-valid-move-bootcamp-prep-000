@@ -24,5 +24,5 @@ end
 
 
 def on_board?(index)
-  raise index.inspect
+  raise "bang"
 end
