@@ -2,7 +2,6 @@
 def valid_move?(board, index)
   # Returns true if the move is valid (Present on game board, not already filled)
   # Returns false if the move is not valid
-  raise present_on_board?(index).inspect
   if present_on_board?(index) && !position_taken?(board, index)
     true
   else
