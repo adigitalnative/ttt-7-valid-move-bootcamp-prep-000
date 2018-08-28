@@ -23,8 +23,8 @@ def present_on_board?(index)
   valid_indexes = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   
   if valid_indexes.include?(index)
-    true
-  else
     false
+  else
+    true
   end
 end
