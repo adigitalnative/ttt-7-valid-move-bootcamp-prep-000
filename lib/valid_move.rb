@@ -3,9 +3,10 @@ def valid_move?(board, index)
   # Returns true if the move is valid (Present on game board, not already filled)
   # Returns false if the move is not valid
   if position_taken?(board, index)
-    false
+    return false
+    
   else
-    true
+    return true
   end
 end
 
@@ -14,15 +15,6 @@ def position_taken?(board, index)
   if value_at_index == "" || value_at_index == " " || value_at_index == nil
     return false
   else
-    if on_board?(index)
-      return true
-    else
-      return false
-    end
+    return true
   end
-end
-
-
-def on_board?(index)
-  
 end
